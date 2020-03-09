@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9dca3c1-a18f-41bf-891e-0cdcc4f9975c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/CodingHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/DefineBasicInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/FavoriteNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/HelloMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/HelloOthers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/HelloUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/HumptyDumpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/IntroduceYourSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/KMtoMiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/OddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/OneTwoAlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/PartyIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/PrintBigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/PrintEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/SecondsInADay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/TwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/VariableMutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week-1/Day-4/src/iWontCheatOnExams.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YtJnmWwn7z0OKdoeTpx98iZPjm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9dca3c1-a18f-41bf-891e-0cdcc4f9975c" name="Default Changelist" comment="" />
+      <created>1583756126659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583756126659</updated>
+      <workItem from="1583756128159" duration="194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583756177517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583756177517" />
+    <state x="65" y="0" key="new project wizard" timestamp="1583756321313">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583756321313" />
+  </component>
+</project>
