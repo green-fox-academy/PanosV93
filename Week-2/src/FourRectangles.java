@@ -3,13 +3,26 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class CenteredSquare {
+public class FourRectangles {
 
     public static void mainDraw(Graphics graphics) {
-        // Draw a green 10x10 square to the canvas' center.
-        int size = 10;
-        graphics.setColor(Color.GREEN);
-        graphics.fillRect(WIDTH / 2 - 5, HEIGHT / 2 - 5, size, size);
+        // draw four different size and color rectangles.
+        // avoid code duplication.
+        for (int i = 0; i < 4; i++) {
+            int x = (int) (Math.random() * WIDTH / 2);
+            int y = (int) (Math.random() * HEIGHT / 2);
+            int size = (int) (Math.random() * WIDTH);
+            int colorR = (int) (Math.random() * 234);
+            int colorG = (int) (Math.random() * 256);
+            int colorB = (int) (Math.random() * 256);
+            drawARectangle(x, y, size, colorR, colorG, colorB, graphics);
+        }
+
+    }
+
+    private static void drawARectangle(int x, int y, int size, int colorR, int colorG, int colorB, Graphics graphics) {
+        graphics.setColor(new Color(colorR, colorG, colorB));
+        graphics.fillRect(x, y, size, size);
     }
 
     // Don't touch the code below

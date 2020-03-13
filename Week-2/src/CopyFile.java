@@ -8,8 +8,8 @@ public class CopyFile {
         FileInputStream instream = null;
         FileOutputStream outstream = null;
         try {
-            File infile = new File("C:\\Users\\Asus\\Desktop\\GreenFox\\MyInputFile");
-            File outfile = new File("C:\\Users\\Asus\\Desktop\\GreenFox\\MyOutputFile");
+            File infile = new File("C:\\Users\\Asus\\Desktop\\GreenFox\\input.txt");
+            File outfile = new File("C:\\Users\\Asus\\Desktop\\GreenFox\\output.txt");
             instream = new FileInputStream(infile);
             outstream = new FileOutputStream(outfile);
             byte [] buffer = new byte[1024];

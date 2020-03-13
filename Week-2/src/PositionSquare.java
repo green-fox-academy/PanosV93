@@ -3,13 +3,28 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class CenteredSquare {
+public class PositionSquare {
 
     public static void mainDraw(Graphics graphics) {
-        // Draw a green 10x10 square to the canvas' center.
-        int size = 10;
-        graphics.setColor(Color.GREEN);
-        graphics.fillRect(WIDTH / 2 - 5, HEIGHT / 2 - 5, size, size);
+        // create a function that draws one square and takes 3 parameters:
+        // the x and y coordinates of the square's top left corner and the graphics
+        // and draws a 50x50 square from that point.
+        // draw 3 squares with that function.
+        // avoid code duplication.
+
+        
+        for (int i = 0; i < 3; i++) {
+            int x = (int) (Math.random() * WIDTH);
+            int y = (int) (Math.random() * HEIGHT);
+            drawSquare(x, y, graphics);
+        }
+    }
+
+
+    private static void drawSquare(int x, int y, Graphics graphics) {
+        int size = 50;
+        graphics.drawRect(x, y, size, size);
+
     }
 
     // Don't touch the code below
@@ -34,4 +49,5 @@ public class CenteredSquare {
             mainDraw(graphics);
         }
     }
+
 }
