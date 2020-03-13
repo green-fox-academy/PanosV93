@@ -4,13 +4,15 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class ToTheCenter {
+public class CenteredSquare {
+
     public static void mainDraw(Graphics graphics) {
-        // Create a function that draws a single line and takes 3 parameters:
-        // The x and y coordinates of the line's starting point and the graphics
-        // and draws a line from that point to the center of the canvas.
-        // Draw at least 3 lines with that function using a loop.
-        graphics.drawLine(160,160,0,160);
+        // Draw a green 10x10 square to the canvas' center.
+        int size = 200;
+        graphics.setColor(Color.GREEN);
+        graphics.fillRect(WIDTH/2-20,HEIGHT/2-20,40,40);
+
+
 
     }
 
