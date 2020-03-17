@@ -1,3 +1,5 @@
+package objectorientation;
+
 import java.util.HashMap;
 
 public class DoableHomework {
@@ -5,7 +7,7 @@ public class DoableHomework {
         HashMap<String, String> tree1 = new HashMap<>();
         tree1.put("Type ", " Maple");
         tree1.put("LeafColor ", " Green");
-        tree1.put("Age ", " 5");
+        tree1.put("Age ", " 9");
         tree1.put("Sex ", " Male");
 
         HashMap<String, String> tree2 = new HashMap<>();

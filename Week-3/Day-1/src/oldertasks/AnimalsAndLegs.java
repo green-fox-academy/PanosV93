@@ -1,3 +1,5 @@
+package oldertasks;
+
 import java.util.Scanner;
 
 public class AnimalsAndLegs {

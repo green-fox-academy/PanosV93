@@ -12,7 +12,7 @@ public class PositionSquare {
         // draw 3 squares with that function.
         // avoid code duplication.
 
-        
+
         for (int i = 0; i < 3; i++) {
             int x = (int) (Math.random() * WIDTH);
             int y = (int) (Math.random() * HEIGHT);
