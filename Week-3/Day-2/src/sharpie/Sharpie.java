@@ -1,15 +1,15 @@
 package sharpie;
 
-public class sharpie {
+public class Sharpie {
     String color;
     float width;
     float inkAmount;
 
-    public sharpie(){
+    public Sharpie(){
         this(null,0,100);
     }
 
-    public sharpie(String color, float width, float inkAmount){
+    public Sharpie(String color, float width, float inkAmount){
         this.color = color;
         this.width = width;
         this.inkAmount = inkAmount;
