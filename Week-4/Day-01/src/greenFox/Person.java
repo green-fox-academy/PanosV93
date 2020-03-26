@@ -20,7 +20,7 @@ public class Person {
     }
 
     public String introduce(){
-        return "Hi, I am " + this.name + "a " + this.age + "years old " + this.gender;
+        return "Hi, I am " + this.name + " a " + this.age + " years old " + this.gender;
         //is this. at sout and overkill?
     }
 

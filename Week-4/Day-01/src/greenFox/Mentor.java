@@ -15,11 +15,11 @@ public class Mentor extends Person {
 
     @Override
     public String introduce() {
-        return "Hi, I'm " + this.name + "a " + this.age + "year old " + this.gender + this.level + "mentor ";
+        return "Hi, I'm " + this.name + " a " + this.age + " year old " + this.gender + this.level + " mentor ";
     }
 
     @Override
     public String getGoal() {
-        return "Educate brilliant junior software developers";
+        return "My goal is: Educate brilliant junior software developers";
     }
 }

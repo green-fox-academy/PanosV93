@@ -18,12 +18,12 @@ public class Sponsor extends Person {
 
     @Override
     public String introduce() {
-        return "Hi, I'm " + this.name + "a " + this.age + "year old " + this.gender + "who represents" + this.company + "and hired " + this.hiredStudents + "so far ";
+        return "Hi, I'm " + this.name + " a " + this.age + " year old " + this.gender + " who represents" + this.company + " and hired " + this.hiredStudents + " so far ";
     }
 
     @Override
     public String getGoal() {
-        return "Hire brilliant junior software developers";
+        return "My goal is: Hire brilliant junior software developers ";
     }
 
     public void hire(){

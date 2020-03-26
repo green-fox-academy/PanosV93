@@ -18,12 +18,12 @@ public class Student extends Person {
 
     @Override
     public String introduce() {
-        return "Hi, I'm " + this.name + "a " + this.age + "year old " + this.gender + "from " +this.previousOrganization + "who skipped " + this.skippedDays + "days from the course already";
+        return "Hi, I'm " + this.name + " a " + this.age + " year old " + this.gender + " from " +this.previousOrganization + " who skipped " + this.skippedDays + " days from the course already";
     }
 
     @Override
     public String getGoal() {
-        return "Be a junior software developer";
+        return "My goal is: Be a junior software developer";
     }
 
     public void skipDays(int numberOfDays){

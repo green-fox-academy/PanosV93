@@ -10,11 +10,11 @@ public class Main {
         people.add(mark);
         Person jane = new Person();
         people.add(jane);
-        Student john = new Student("John Doe", 20, "male", "BME");
+        Student john = new Student("John Doe ", 20, "male", "BME");
         people.add(john);
         Student student = new Student();
         people.add(student);
-        Mentor gandhi = new Mentor("Gandhi", 148, "male", "senior");
+        Mentor gandhi = new Mentor("Gandhi", 148, "male", " senior");
         people.add(gandhi);
         Mentor mentor = new Mentor();
         people.add(mentor);
@@ -22,6 +22,18 @@ public class Main {
         people.add(sponsor);
         Sponsor elon = new Sponsor("Elon Musk", 46, "male", "SpaceX");
         people.add(elon);
+
+        System.out.println(mark.introduce());
+        System.out.println(mark.getGoal());
+        System.out.println(jane.introduce());
+        System.out.println(jane.getGoal());
+        System.out.println(john.introduce());
+        System.out.println(john.getGoal());
+        System.out.println(gandhi.introduce());
+        System.out.println(gandhi.getGoal());
+        System.out.println(elon.introduce());
+        System.out.println(elon.getGoal());
+
 
         student.skipDays(3);
 
@@ -38,7 +50,7 @@ public class Main {
             person.getGoal();
         }
 
-        Cohort awesome = new Cohort("AWESOME");
+        Cohort awesome = new Cohort("AWESOME ");
         awesome.addStudent(student);
         awesome.addStudent(john);
         awesome.addMentor(mentor);
