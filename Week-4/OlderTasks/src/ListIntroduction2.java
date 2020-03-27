@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class ListIntroduction2 {
     public static void main(String[] args) {
-        ArrayList<String> list1 = new ArrayList<>(Arrays.asList("Apple","Avocado","Blueberries","Durian","Lychee"));
+        ArrayList<String> list1 = new ArrayList<>(Arrays.asList("Apple", "Avocado", "Blueberries", "Durian", "Lychee"));
         ArrayList<String> list2 = new ArrayList<>(list1);
         System.out.println(list1.contains("Durian"));
         list2.remove(3);
